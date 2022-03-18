@@ -1,0 +1,245 @@
+.container {
+  background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-box {
+  background-color: #ffffff;
+  width: 798px;
+  height: 574px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 27px;
+  margin-top: 24px;
+}
+
+.title {
+  color: #ff6a28;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+.subtitle {
+  margin-top: 2px;
+  color: #61656d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.photo-brownie {
+  margin-top: 14px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  width: 118px;
+  height: 85px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-right: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box {
+  display: flex;
+}
+.icon-box img{
+  width: 20px;
+}
+
+.info-icon-box {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px
+}
+
+.info-text {
+  color: #61656d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.info-strong-text {
+  color: #ff6a28;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.box-author {
+  background-color: #f0f0f0;
+  width: 238px;
+  height: 85px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-author-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+}
+
+.info-strong-author {
+  color: #ff6a28;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.info-author {
+  color: #61656d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/*Ingredientes e modo de preparo*/
+
+.title-main {
+  color: #ff6a28;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+
+.ingredient-box {
+  width: 798px;
+  height: 335px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 37px;
+  padding-top: 15px;
+  padding-left: 27px;
+}
+
+.ingredient-title-box,
+.method-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+ol {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredient-list {
+  width: 440;
+}
+
+.ingredient li:before {
+  content: "⦁";
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+.ingredient li {
+  margin-bottom: 10px;
+  color: #61656d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+ul li:nth-child(1) {
+  margin-top: 12px;
+}
+
+.method-box {
+  width: 798px;
+  height: 405px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 16px;
+  padding: 20px 27px 33px 27px;
+  color: #61656d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+li strong {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #61656d;
+  margin-right: 8px;
+ }
+
+ol li:nth-child(1) {
+  margin-top: 12px;
+}
+
+/*Informações adicionais*/
+.add-info-box {
+  width: 798px;
+  height: 356px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 63px;
+  padding: 15px 33px 21px 22px;
+  }
+
+.info-title-box {
+  width: 754px;
+  height: 34px;
+  background-color: #f0f0f0;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.add-info-title {
+  color: #61656d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.add-info-text {
+    display: flex;
+    flex-direction: column; 
+  color: #61656d;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
